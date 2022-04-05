@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div className='header'>
-            <div className='logo'>
+            <div>
                 <h2>Tracker <span className='logo-span'>Wheels</span></h2>
             </div>
             <div className='links'>

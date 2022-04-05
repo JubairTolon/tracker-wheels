@@ -1,0 +1,75 @@
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.home-container div {
+    margin: 0 35px;
+}
+
+.text-container h1 {
+    font-size: 60px;
+}
+
+.text-container h3 {
+    font-size: 30px;
+}
+
+.text-container p {
+    color: aliceblue;
+}
+
+.demo-btn {
+    border: none;
+    padding: 15px 25px;
+    font-weight: 600;
+    background-color: rgb(57, 177, 57);
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.demo-btn:hover {
+    background-color: lightgreen;
+    transition: .2s;
+}
+
+.img-cotainer img {
+    width: 700px;
+    transform: rotate(10deg);
+    transition: transform .2s;
+}
+
+.img-cotainer img:hover {
+    transform: scale(1);
+}
+
+.review-container {
+    margin-top: 60px;
+    text-align: center;
+    padding: 0 60px;
+}
+
+.user-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.review-btn {
+    padding: 8px 10px;
+    border: none;
+    background-color: rgb(57, 177, 57);
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.review-btn:hover {
+    color: black;
+}

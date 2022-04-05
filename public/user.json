@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "624c81ea9cda245474e735ee",
+        "isActive": true,
+        "rating": "4.50",
+        "img": "https://icons-for-free.com/iconfiles/png/512/man+icon-1320184411389497968.png",
+        "name": "Hester Lawrence",
+        "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nam."
+    },
+    {
+        "_id": "624c81ead3c91fe5f38c4569",
+        "isActive": false,
+        "rating": "4.00",
+        "img": "https://icons-for-free.com/iconfiles/png/512/man+icon-1320184411389497968.png",
+        "name": "Patterson Mcdonald",
+        "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nam."
+    },
+    {
+        "_id": "624c81eab68da3a41a5b41cf",
+        "isActive": false,
+        "rating": "3.50",
+        "img": "https://icons-for-free.com/iconfiles/png/512/man+icon-1320184411389497968.png",
+        "name": "Olga Mullen",
+        "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nam."
+    },
+    {
+        "_id": "624c81ea6e5194615712f622",
+        "isActive": true,
+        "rating": "3.00",
+        "img": "https://icons-for-free.com/iconfiles/png/512/man+icon-1320184411389497968.png",
+        "name": "Watts Christensen",
+        "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nam."
+    },
+    {
+        "_id": "624c81ea4d75366361e56ef9",
+        "isActive": false,
+        "rating": "4.50",
+        "img": "https://icons-for-free.com/iconfiles/png/512/man+icon-1320184411389497968.png",
+        "name": "Catherine Fuller",
+        "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nam."
+    },
+    {
+        "_id": "624c81eab7fe7eba7621a9ed",
+        "isActive": true,
+        "rating": "5.00",
+        "img": "https://icons-for-free.com/iconfiles/png/512/man+icon-1320184411389497968.png",
+        "name": "Ladonna Massey",
+        "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nam."
+    }
+]
