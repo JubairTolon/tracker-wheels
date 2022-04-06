@@ -17,7 +17,7 @@ const Home = () => {
     const newUsers = users.filter(user => users.indexOf(user) < 3);
 
     return (
-        <div>
+        <div className='main-container'>
             <div className='home-container'>
                 <div className="text-container">
                     <h1 style={{ color: 'white' }}>Won Your <span style={{ color: 'rgb(57, 177, 57)' }}>Track</span></h1>
