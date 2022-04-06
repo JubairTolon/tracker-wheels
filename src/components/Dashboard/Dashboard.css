@@ -1,0 +1,12 @@
+.dash-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 30px;
+}
+
+.container {
+    background-color: rgb(223, 255, 223);
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}

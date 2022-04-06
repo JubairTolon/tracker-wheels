@@ -1,17 +1,12 @@
 import './Home.css'
 import img from '../../images/cycle.png'
-import { useEffect, useState } from 'react';
 import User from '../User/User';
 import { useNavigate } from 'react-router-dom';
+import useDatas from '../../hooks/useDatas';
+
 
 const Home = () => {
-    const [users, setUsers] = useState([]);
-
-    useEffect(() => {
-        fetch('user.json')
-            .then(res => res.json())
-            .then(data => setUsers(data))
-    }, []);
+    const [users] = useDatas();
 
     const navigate = useNavigate();
     const hannleShowAllReviewBtn = () => {

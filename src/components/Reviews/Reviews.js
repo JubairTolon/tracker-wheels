@@ -1,14 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import useDatas from '../../hooks/useDatas';
 import User from '../User/User';
 
 const Reviews = () => {
-    const [users, setUsers] = useState([]);
-
-    useEffect(() => {
-        fetch('user.json')
-            .then(res => res.json())
-            .then(data => setUsers(data))
-    }, []);
+    const [users] = useDatas();
     return (
         <div>
             <div className='review-container'>
