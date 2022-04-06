@@ -39,13 +39,14 @@
 
 .img-cotainer img {
     width: 700px;
-    transform: rotate(10deg);
-    transition: transform .2s;
+    /* transform: rotate(10deg);
+    transition: transform .2s; */
 }
 
+/* 
 .img-cotainer img:hover {
     transform: scale(1);
-}
+} */
 
 .review-container {
     margin-top: 60px;

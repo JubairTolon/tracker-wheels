@@ -12,11 +12,14 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setUsers(data))
     }, []);
+
     const navigate = useNavigate();
     const hannleShowAllReviewBtn = () => {
         const path = `/reviews`;
         navigate(path);
     }
+
+    const newUsers = users.filter(user => users.indexOf(user) < 3);
 
     return (
         <div>
@@ -35,9 +38,8 @@ const Home = () => {
                 <h1 style={{ color: 'white' }}>Customers Reviews ({users.length})</h1>
 
                 <div className='user-card'>
-
                     {
-                        users.map(user => <User
+                        newUsers.map(user => <User
                             key={user._id}
                             user={user}
                         ></User>)

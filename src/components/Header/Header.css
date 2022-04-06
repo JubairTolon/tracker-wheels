@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
+    box-shadow: 0 3px 10px black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .logo-span {
@@ -16,7 +20,7 @@
     text-decoration: none;
     color: aliceblue;
     display: inline;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 600;
     margin-left: 20px;
     cursor: pointer;

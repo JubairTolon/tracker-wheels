@@ -2,8 +2,19 @@
     background-color: lightgreen;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0 3px 10px black;
+    cursor: pointer;
+    transition: transform .2s;
 }
 
-.user-info p {
-    text-align: left;
+.user-info:hover {
+    transform: scale(1.05);
+}
+
+.rating p {
+    color: blue;
+}
+
+.faStar {
+    color: blue;
 }
