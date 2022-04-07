@@ -10,5 +10,3 @@ LIve web site Link [Live site](https://golden-elf-01237e.netlify.app/).
 * And also a blog page with some simple blogs.
 * I used hooks inthis project
 * Used destructering
-
-
